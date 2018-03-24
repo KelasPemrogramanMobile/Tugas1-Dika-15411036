@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.edNilai_uts) EditText edNilai_uts;
     @BindView(R.id.edNilai_uas) EditText edNilai_uas;
 
-    @BindView(R.id.txtnama) EditText txtnama;
-    @BindView(R.id.txtnpm) EditText txtnpm;
-    @BindView(R.id.txtquiz) EditText txtquiz;
-    @BindView(R.id.txttugas) EditText txttugas;
-    @BindView(R.id.txtuts) EditText txtuts;
-    @BindView(R.id.txtuas) EditText txtuas;
+    @BindView(R.id.txtnama) TextView txtnama;
+    @BindView(R.id.txtnpm) TextView txtnpm;
+    @BindView(R.id.txtquiz) TextView txtquiz;
+    @BindView(R.id.txttugas) TextView txttugas;
+    @BindView(R.id.txtuts) TextView txtuts;
+    @BindView(R.id.txtuas) TextView txtuas;
 
     @OnClick(R.id.btnKlik)
     void teks_tampil(){
